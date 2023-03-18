@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+    <!--CSS Styles-->
+    <style>
+        body {
+            background: white;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .main-1 {
+            max-width: 992px;
+            background: #ccc;
+            padding: 40px;
+            margin: 0 auto;
+            margin-top: -75px;
+        }
+
+        .star {
+            margin-top: -15px;
+            margin-bottom: 100px;
+            font-size: 16px;
+        }
+
+        .money-heading {
+            margin-bottom: 100px;
+        }
+
+        .main-2 {
+            max-width: 800px;
+            margin-top: 100px;
+            background: #ccc;
+            padding: 40px;
+            margin: 0 auto;
+        }
+
+        .three {
+            margin-top: 100px;
+        }
+
+        .main-2 {
+            margin-top: 80px;
+            margin-bottom: 100px;
+        }
+
+        .aboutus {
+            margin-top: 80px;
+            margin-bottom: 100px;
+        }
+
+        .cmd {
+            margin-top: 15px;
+            margin-bottom: 100px;
+        }
+
+        .f {
+            height: 35px;
+            width: 35px;
+            background-color: blue;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    </style>
+
+    <title>Lokesh M</title>
+</head>
+
+<body>
+    <div class="home">
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="f navbar-brand font-weight-bold" href="#"></a>
+            <a class="navbar-brand font-weight-bold" href="#">Finance</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#">Personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#">Busiess</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#">How it work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#">About us</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="form-control mr-4 font-weight-bold" aria-label="Login">Login</button>
+                    <button type="button" class="btn btn-primary mr-4 font-weight-bold" type="Signup">Sign up</button>
+                </form>
+            </div>
+        </nav>
+
+        <!--banner img-->
+        <div class="banner-image">
+            <img src="./cloud.jpg" alt="cloud" style="width:100%; height: 500px; ">
+            <div class="centered">
+                <h1 class="text-center font-weight-bold">Simple, Secure<br>Currency Transfers</h1>
+                <h6 class="text-center text-secondary">Send money online through Finance Money Transfer. A quick, secure
+                    and<br>easy way to transfer money all around the globe.</h6>
+            </div>
+        </div>
+
+        <!--converter-->
+        <main class="main-1 shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="input_wrapper">
+                                <p class="text-dark">You send</p>
+                                <label for="inr"></label>
+                                <input type="number" id="usd" value="1">
+                                <p class="text-success">Compare price!</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="input_wrapper">
+                                <p class="text-dark">They get</p>
+                                <label for="bdt"></label>
+                                <input type="number" id="bdt">
+                                <p class="text-muted">Exchange rate <span class="text-dark">1USD=84.50 BDT</span></p>
+                            </div>
+                        </div>
+
+                        <!--Converter script-->
+                        <script>
+                            let usdRef = document.getElementById("usd");
+                            let bdtRef = document.getElementById("bdt");
+                            let convertFromUsd = () => {
+                                let usd = usdRef.value;
+
+                                bdtRef.value = (usd * 84.50).toFixed(2);
+                            };
+                            let convertFromBdt = () => {
+                                let bdt = bdtRef.value;
+                                usdRef.value = (bdt / 84.50).toFixed(2);
+                            };
+                            usdRef.addEventListener("input", convertFromUsd);
+                            bdtRef.addEventListener("input", convertFromBdt);
+                            window.addEventListener("load", convertFromUsd);
+                        </script>
+
+
+                        <div class="col">
+                            <div class="input_wrapper">
+                                <p><br></p>
+                                <label for="usd"></label>
+                                <button type="button" class="btn btn-primary my-2 my-sm-0" type="Getstarted">Get
+                                    started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+
+    <!--Star-->
+    <div class="star">
+        <p class="text-dark font-weight-bold text-center">Excellent <span> <img src="./star.png" alt="star"
+                    style="width:16px" ; class="bg-success"> <img src="./star.png" alt="star" style="width:16px" ;
+                    class="bg-success"> <img src="./star.png" alt="star" style="width:16px" ; class="bg-success"> <img
+                    src="./star.png" alt="star" style="width:16px" ; class="bg-success"> </span> <span
+                class="text-primary">4.8 out of 5 based on 21, 928 reviews</span> <span><img src="./star.png" alt="star"
+                    style="width:16px" ; class="bg-success"></span> Trustpilot.</p>
+    </div>
+
+    <!--money heading-->
+    <div>
+        <div class="money-heading">
+            <h1 class="text-center font-weight-bold ">A wide choice of ways to<br>send money online</h1>
+        </div>
+    </div>
+
+    <!--Bank logo-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="./bank.png" width="55px" alt="breakfast" class="bank">
+                <h4 class="text-center font-weight-bold">Bank Transfer</h4>
+                <p class="qs-item-description text-muted">Send money online through<br>Finance Money Transfer.</p>
+                <p class="qs-item-description text-primary">Started with bank</p>
+            </div>
+            <div class="col-sm">
+                <img src="./mobile-banking.png" width="55px" alt="breakfast" class="qs-image">
+                <h4 class="text-center font-weight-bold">Bank Transfer</h4>
+                <p class="qs-item-description text-muted">Send money online through<br>Finance Money Transfer.</p>
+                <p class="qs-item-description text-primary">Started with mobile</p>
+            </div>
+            <div class="col-sm">
+                <img src="./wallet.png" width="55px" alt="breakfast" class="qs-image">
+                <h4 class="qs-item-heading text-center font-weight-bold">Bank Transfer</h4>
+                <p class="qs-item-description text-muted">Send money online through<br>Finance Money Transfer.</p>
+                <p class="qs-item-description text-primary">Started with cash</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Easy 3step-->
+    <div class="three">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <figure>
+                        <div class="list-group">
+                            <a href="#"
+                                class="list-group-item list-group-item-action flex-column align-items-start active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h2 class="mb-1">Easy three step</h2>
+                                </div>
+
+                            </a>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="list-group">
+                            <a href="#"
+                                class="list-group-item list-group-item-action flex-column align-items-start active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">1. Setup your profile</h5>
+                                    <p>Send money online through Finance Money Transfer.</p>
+                                </div>
+                            </a>
+
+                            <a href="#"
+                                class="list-group-item list-group-item-action flex-column align-items-start active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">2. Submit the receiver details</h5>
+                                    <p>Send money online through Finance Money Transfer.</p>
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="list-group-item list-group-item-action flex-column align-items-start active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">3. Add payment method to send</h5>
+                                    <p>Send money online through Finance Money Transfer.</p>
+                                </div>
+                            </a>
+
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <figure>
+
+                        <div class="list-group">
+                            <a href="#"
+                                class="list-group-item list-group-item-action flex-column align-items-start active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">How it work</h5>
+                                    <p class="mb-1">Send money online through Finance Money Transfer.</p>
+                                </div>
+
+                            </a>
+
+                            <a href="#"
+                                class="list-group-item list-group-item-action flex-column align-items-start active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Transfer value</h5>
+                                    <p class="mb-1">Send money online through Finance Money Transfer.</p>
+                                </div>
+
+                            </a>
+                            <a href="#"
+                                class="list-group-item list-group-item-action flex-column align-items-start active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Transfer security</h5>
+                                    <p class="mb-1">Send money online through Finance Money Transfer.</p>
+                                </div>
+
+                            </a>
+
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Country Image-->
+
+    <main class="main-2 shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="content">
+            <div class="containe">
+                <div class="row">
+                    <div class="col">
+                        <div class="sendmoney">
+                            <h3>Send money to over 130 countries worldwide</h3>
+                            <p>Send money online through Finance Money Transfer. A quick, secure and easy way to
+                                transfer money all around the globe.</p>
+                            <button type="button" class="btn btn-primary my-2 my-sm-0" type="Getstarted">Get
+                                started</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="sendmoney text-center">
+                            <img src="./globe.png" class="rounded" alt="globe" width="200px">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!--About us-->
+    <div>
+        <div class="aboutus">
+            <h1 class="text-center font-weight-bold ">What people say about us</h1>
+        </div>
+    </div>
+
+    <!--Tweet ref youtube-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="border border-primary rounded">
+                    <div class="tweet">
+                        <p>Perfect for managing my money accross countries and currenciesa very good customer support.
+                        </p>
+                        <div>
+                            <img src="./united-kingdom.png" alt="uk" width="30px"> Savannah Nguyen <img
+                                src="./twitter.png" width="20px" alt="tweet">
+                            <h6></h6>
+                            <p>Pembroke Pines</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="border border-primary rounded">
+                <div class="col-6">
+                    <p>Perfect for managing my money accross countries and currenciesa very good customer support.</p>
+                    <div>
+                        <img src="./romania.png" alt="uk" width="30px"> Floyd Miles <img src="./twitter.png"
+                            width="20px" alt="tweet">
+                        <h6></h6>
+                        <p>Toledo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="border border-primary rounded">
+                    <div class="tweet">
+                        <p>Perfect for managing my money accross countries and currenciesa very good customer support.
+                        </p>
+                        <div>
+                            <img src="./globe.png" alt="uk" width="30px"> Jocob Jones <img src="./twitter.png"
+                                width="20px" alt="tweet">
+                            <h6></h6>
+                            <p>Fairfield</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cmd">
+            <div class="row">
+                <div class="col">
+                    <div class="border border-primary rounded">
+                        <div class="tweet">
+                            <p>Perfect for managing my money accross countries and currenciesa very good customer
+                                support.</p>
+                            <div>
+                                <img src="./ivory-coast.png" alt="uk" width="30px"> Arlene McCoy <img
+                                    src="./twitter.png" width="20px" alt="tweet">
+                                <h6></h6>
+                                <p>Orange</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="border border-primary rounded">
+                        <div class="tweet">
+                            <p>Perfect for managing my money accross countries and currenciesa very good customer
+                                support.</p>
+                            <div>
+                                <img src="./germany.png" alt="uk" width="30px"> Guy Hawkins <img src="./twitter.png"
+                                    width="20px" alt="tweet">
+                                <h6></h6>
+                                <p>Naper Villle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="border border-primary rounded">
+                        <div class="tweet">
+                            <p>Perfect for managing my money accross countries and currenciesa very good customer
+                                support.</p>
+                            <div>
+                                <img src="./latvia.png" alt="uk" width="30px"> Cody Fis <img src="./twitter.png"
+                                    width="20px" alt="tweet">
+                                <h6></h6>
+                                <p>Austin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Simple secure-->
+
+    <main class="main-2 shadow-lg p-3 mb-5 bg-primary rounded">
+        <div class="content">
+            <div class="containe">
+                <div class="row">
+                    <div class="col">
+                        <div class="sendmoney">
+                            <h3>Simple, secure currency transfers</h3>
+                            <p>Send money online through Finance Money Transfer. A quick, secure and easy way to
+                                transfer money all around the globe.</p>
+                            <button type="button" class="form-control mr-4 font-weight-bold" aria-label="Login">Get
+                                started</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="sendmoney text-center">
+                            <img src="./check.png" class="rounded" alt="globe" width="200px">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+
+
+        <div class="container text-center text-md-left">
+
+
+            <div class="row">
+
+
+                <div class="col-md-3 mx-auto">
+
+
+                    <h5 class="f font-weight-bold text-uppercase mt-3 mb-4"></h5>
+
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a href="#!" class="text-muted">Finance,<br>© 2021 All right</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <hr class="clearfix w-100 d-md-none">
+
+
+                <div class="col-md-3 mx-auto">
+
+
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">First column</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-muted">First link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Second link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Third link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Fourth link</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <hr class="clearfix w-100 d-md-none">
+
+
+                <div class="col-md-3 mx-auto">
+
+
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Second column</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-muted">First link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Second link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Third link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Fourth link</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <hr class="clearfix w-100 d-md-none">
+
+
+                <div class="col-md-3 mx-auto">
+
+
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Third column</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-muted">First link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Second link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Third link</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-muted">Fourth link</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
